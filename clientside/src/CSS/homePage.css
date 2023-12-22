@@ -1,0 +1,109 @@
+.wrapper {
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(0, 162, 255), white);
+}
+
+.blog-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100dvh;
+    background: linear-gradient(to bottom, rgb(0, 162, 255), white);
+}
+
+.blog-wrapper .blog-box {
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    margin-bottom: 15px;
+}
+
+.blog-wrapper .blog-box .blog {
+    background-color: #2ea4da82;
+    color: white;
+    border-radius: 15px;
+    text-align: justify;
+    padding: 20px;
+    line-height: 25px;
+    font-size: 11pt;
+    margin-bottom: 15px;
+}
+
+.blog-wrapper .blog-box .user__info {
+    font-size: 9pt;
+    -webkit-text-stroke: .6pt rgb(255, 255, 255);
+    letter-spacing: 1.2pt;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.blog-wrapper .blog-box .like button {
+    margin-right: 5px;
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    -webkit-text-stroke: .5pt black;
+    cursor: pointer;
+    color: black;
+    letter-spacing: 1pt;
+    font-size: 9pt;
+    transition: .4s all ease;
+}
+
+.blog-wrapper .blog-box .like button:hover {
+    transform: scale(.92);
+}
+
+.blog-wrapper .header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    padding: 5px;
+}
+
+.blog-wrapper .header #username {
+    background-color: skyblue;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+.blog-wrapper .header button {
+    margin-right: 5px;
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    -webkit-text-stroke: .5pt black;
+    cursor: pointer;
+    color: black;
+    letter-spacing: 1pt;
+    font-size: 9pt;
+    transition: .4s all ease;
+}
+
+.blog-wrapper #newPost {
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    padding: 10px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-wrapper #newPost input {
+    width: 98%;
+    height: 50px;
+    border-radius: 15px;
+    padding-left: 2%;
+}
